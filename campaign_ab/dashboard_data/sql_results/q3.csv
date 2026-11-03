@@ -1,0 +1,3 @@
+campaign_group,days,spend,impressions,clicks,add_to_cart,purchases,ctr_pct,cost_per_click,cpm,cost_per_add_to_cart,cost_per_purchase,purchases_per_1k_usd
+control,29,66818,3177233.0,154303.0,37700.0,15161.0,4.86,0.433,21.03,1.77,4.41,226.9
+test,30,76892,2237544.0,180970.0,26446.0,15637.0,8.09,0.425,34.36,2.91,4.92,203.4

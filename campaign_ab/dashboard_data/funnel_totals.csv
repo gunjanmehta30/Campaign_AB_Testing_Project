@@ -1,0 +1,13 @@
+campaign_group,stage_order,stage,total
+control,1,impressions,3177233.0
+control,2,clicks,154303.0
+control,3,searches,64418.0
+control,4,view_content,56370.0
+control,5,add_to_cart,37700.0
+control,6,purchases,15161.0
+test,1,impressions,2237544.0
+test,2,clicks,180970.0
+test,3,searches,72569.0
+test,4,view_content,55740.0
+test,5,add_to_cart,26446.0
+test,6,purchases,15637.0

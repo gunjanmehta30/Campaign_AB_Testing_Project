@@ -1,0 +1,5 @@
+campaign_group,day_type,days,avg_daily_purchases,avg_daily_spend,cost_per_purchase
+control,weekday,21,562.1,2380.0,4.23
+control,weekend,8,419.6,2104.0,5.01
+test,weekday,22,561.9,2621.0,4.66
+test,weekend,8,409.5,2405.0,5.87

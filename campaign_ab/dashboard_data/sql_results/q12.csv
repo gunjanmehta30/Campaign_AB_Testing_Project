@@ -1,0 +1,11 @@
+campaign_group,date,view_content,add_to_cart,purchases,issue
+control,2019-08-04,982.0,1183.0,340.0,add_to_cart > view_content
+control,2019-08-07,1106.0,1166.0,499.0,add_to_cart > view_content
+control,2019-08-10,1984.0,1629.0,734.0,searches > clicks
+control,2019-08-12,1147.0,1439.0,794.0,add_to_cart > view_content
+control,2019-08-14,1149.0,1339.0,788.0,add_to_cart > view_content
+control,2019-08-15,1005.0,1641.0,366.0,add_to_cart > view_content
+control,2019-08-20,848.0,1709.0,299.0,add_to_cart > view_content
+control,2019-08-28,1589.0,1711.0,643.0,add_to_cart > view_content
+control,2019-08-30,1249.0,442.0,670.0,purchases > add_to_cart
+test,2019-08-05,858.0,956.0,768.0,add_to_cart > view_content

@@ -1,0 +1,148 @@
+{
+  "sensitivity_same_conclusion_for_all_metrics": true,
+  "overdispersion_ratio_(observed_var/binomial_var)": {
+    "click_through_rate": {
+      "control": 955.0,
+      "test": 3714.9
+    },
+    "click_to_purchase": {
+      "control": 247.0,
+      "test": 138.3
+    }
+  },
+  "power": {
+    "days_per_arm": [
+      29,
+      30
+    ],
+    "min_detectable_effect_daily_purchases_80pct_power": 147.0,
+    "as_pct_of_control_mean": 28.1,
+    "note": "With ~30 days per arm only large differences (roughly 25%+ in mean daily purchases) can be detected reliably."
+  },
+  "totals": {
+    "control": {
+      "spend": 66818,
+      "impressions": 3177233.0,
+      "clicks": 154303.0,
+      "searches": 64418.0,
+      "view_content": 56370.0,
+      "add_to_cart": 37700.0,
+      "purchases": 15161.0
+    },
+    "test": {
+      "spend": 76892,
+      "impressions": 2237544.0,
+      "clicks": 180970.0,
+      "searches": 72569.0,
+      "view_content": 55740.0,
+      "add_to_cart": 26446.0,
+      "purchases": 15637.0
+    }
+  },
+  "data_quality": {
+    "rows": {
+      "control": 30,
+      "test": 30
+    },
+    "date_range": [
+      "2019-08-01",
+      "2019-08-30"
+    ],
+    "days_per_group_match": true,
+    "missing_days": [
+      {
+        "campaign_group": "control",
+        "date": "2019-08-05"
+      }
+    ],
+    "duplicate_group_dates": 0,
+    "stage_order_violations": [
+      {
+        "earlier": "clicks",
+        "later": "searches",
+        "days": 1,
+        "groups": {
+          "control": 1
+        }
+      },
+      {
+        "earlier": "view_content",
+        "later": "add_to_cart",
+        "days": 8,
+        "groups": {
+          "control": 7,
+          "test": 1
+        }
+      },
+      {
+        "earlier": "add_to_cart",
+        "later": "purchases",
+        "days": 1,
+        "groups": {
+          "control": 1
+        }
+      }
+    ],
+    "reach_gt_impressions_days": 0,
+    "note": "Later stages can exceed earlier ones on a given day (e.g. purchases > add-to-cart) because the data are daily totals, not a per-user funnel. Stage rates are therefore computed on pooled totals."
+  },
+  "headline": {
+    "cost_per_purchase": {
+      "control": 4.41,
+      "test": 4.92,
+      "rel_diff_pct": 11.6,
+      "ci95_pct": [
+        -9.6,
+        35.1
+      ],
+      "p_adj": 0.395
+    },
+    "purchases_per_1k_usd": {
+      "control": 226.9,
+      "test": 203.4
+    }
+  },
+  "significant_after_correction": [
+    {
+      "metric": "Click-through rate (clicks / impressions)",
+      "rel_diff_pct": 66.5,
+      "winner": "test"
+    },
+    {
+      "metric": "View-content rate (view content / searches)",
+      "rel_diff_pct": -12.2,
+      "winner": "control"
+    },
+    {
+      "metric": "Add-to-cart rate (add to cart / view content)",
+      "rel_diff_pct": -29.1,
+      "winner": "control"
+    },
+    {
+      "metric": "Purchase rate (purchases / add to cart)",
+      "rel_diff_pct": 47.0,
+      "winner": "test"
+    },
+    {
+      "metric": "Impression-to-purchase (purchases / impressions)",
+      "rel_diff_pct": 46.5,
+      "winner": "test"
+    },
+    {
+      "metric": "Cost per 1,000 impressions (CPM, USD)",
+      "rel_diff_pct": 63.4,
+      "winner": "control"
+    },
+    {
+      "metric": "Cost per add-to-cart (USD)",
+      "rel_diff_pct": 64.0,
+      "winner": "control"
+    }
+  ],
+  "not_significant": [
+    "Search rate (searches / clicks)",
+    "Click-to-purchase (purchases / clicks)",
+    "Cost per click (USD)",
+    "Cost per purchase (USD)"
+  ]
+}

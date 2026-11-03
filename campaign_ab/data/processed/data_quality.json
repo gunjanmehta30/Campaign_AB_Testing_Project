@@ -1,0 +1,47 @@
+{
+  "rows": {
+    "control": 30,
+    "test": 30
+  },
+  "date_range": [
+    "2019-08-01",
+    "2019-08-30"
+  ],
+  "days_per_group_match": true,
+  "missing_days": [
+    {
+      "campaign_group": "control",
+      "date": "2019-08-05"
+    }
+  ],
+  "duplicate_group_dates": 0,
+  "stage_order_violations": [
+    {
+      "earlier": "clicks",
+      "later": "searches",
+      "days": 1,
+      "groups": {
+        "control": 1
+      }
+    },
+    {
+      "earlier": "view_content",
+      "later": "add_to_cart",
+      "days": 8,
+      "groups": {
+        "control": 7,
+        "test": 1
+      }
+    },
+    {
+      "earlier": "add_to_cart",
+      "later": "purchases",
+      "days": 1,
+      "groups": {
+        "control": 1
+      }
+    }
+  ],
+  "reach_gt_impressions_days": 0,
+  "note": "Later stages can exceed earlier ones on a given day (e.g. purchases > add-to-cart) because the data are daily totals, not a per-user funnel. Stage rates are therefore computed on pooled totals."
+}

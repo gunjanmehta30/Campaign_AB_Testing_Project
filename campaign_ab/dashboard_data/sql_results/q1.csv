@@ -1,0 +1,3 @@
+campaign_group,days,days_with_missing_metrics,first_day,last_day
+control,30,1,2019-08-01,2019-08-30
+test,30,0,2019-08-01,2019-08-30

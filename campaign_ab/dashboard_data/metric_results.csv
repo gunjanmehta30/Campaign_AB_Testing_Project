@@ -1,0 +1,12 @@
+analysis,metric,better_if,control,test,abs_diff,rel_diff_pct,ci_low,ci_high,rel_ci_low_pct,rel_ci_high_pct,p_permutation,p_naive_chi2,p_adj_BH,significant,winner
+complete-case (primary),Click-through rate (clicks / impressions),higher,4.85652,8.08789,3.23136,66.5366,1.61536,5.10063,33.26163,105.02649,0.0001,0.0,0.00037,True,test
+complete-case (primary),Search rate (searches / clicks),higher,41.74773,40.10002,-1.64771,-3.94683,-8.78812,5.60504,-21.05052,13.42597,0.64954,0.0,0.71449,False,no clear difference
+complete-case (primary),View-content rate (view content / searches),higher,87.5066,76.80966,-10.69694,-12.22415,-16.63784,-4.74428,-19.01325,-5.42163,0.002,0.0,0.0044,True,control
+complete-case (primary),Add-to-cart rate (add to cart / view content),higher,66.87955,47.44528,-19.43426,-29.05861,-34.28459,-6.02696,-51.26319,-9.01166,0.0086,0.0,0.01351,True,control
+complete-case (primary),Purchase rate (purchases / add to cart),higher,40.21485,59.12803,18.91318,47.03033,10.54036,27.18057,26.21011,67.58838,0.0003,0.0,0.00082,True,test
+complete-case (primary),Click-to-purchase (purchases / clicks),higher,9.82547,8.64066,-1.18481,-12.0586,-3.71831,1.12177,-37.84357,11.41696,0.32337,0.0,0.39523,False,no clear difference
+complete-case (primary),Impression-to-purchase (purchases / impressions),higher,0.47718,0.69885,0.22167,46.45462,0.07756,0.38577,16.25369,80.84433,0.0031,0.0,0.00568,True,test
+complete-case (primary),"Cost per 1,000 impressions (CPM, USD)",lower,21.03025,34.36446,13.33422,63.40493,8.3189,19.66663,39.55683,93.51592,0.0001,,0.00037,True,control
+complete-case (primary),Cost per click (USD),lower,0.43303,0.42489,-0.00814,-1.88047,-0.08854,0.06855,-20.44637,15.83002,0.83732,,0.83732,False,no clear difference
+complete-case (primary),Cost per add-to-cart (USD),lower,1.77236,2.90751,1.13515,64.04728,0.69677,1.65703,39.31284,93.49266,0.0001,,0.00037,True,control
+complete-case (primary),Cost per purchase (USD),lower,4.40723,4.91731,0.51008,11.57377,-0.42224,1.54857,-9.58054,35.13714,0.31127,,0.39523,False,no clear difference

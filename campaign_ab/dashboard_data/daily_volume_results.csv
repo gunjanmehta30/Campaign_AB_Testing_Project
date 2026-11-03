@@ -1,0 +1,7 @@
+metric,control,test,rel_diff_pct,p_mannwhitney
+Mean daily spend,2304.069,2563.0667,11.2409,0.0071
+Mean daily impressions,109559.7586,74584.8,-31.9232,0.0001
+Mean daily reach,88844.931,53491.5667,-39.7922,0.0
+Mean daily clicks,5320.7931,6032.3333,13.3728,0.1393
+Mean daily add_to_cart,1300.0,881.5333,-32.1897,0.0005
+Mean daily purchases,522.7931,521.2333,-0.2984,0.9577
